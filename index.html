@@ -15,10 +15,12 @@
         <section id="map"></section>
         <button id="openTest">Faça o Teste de Viés</button>
         <div id="testContainer" class="hidden">
-            <p>Você já presenciou ou sofreu algum tipo de preconceito?</p>
-            <button class="answer">Sim</button>
-            <button class="answer">Não</button>
-        </div>
+<div id="testContainer" class="hidden">
+    <p id="question">Você já presenciou ou sofreu algum tipo de preconceito?</p>
+    <button class="answer" onclick="nextQuestion(1)">Sim</button>
+    <button class="answer" onclick="nextQuestion(2)">Não</button>
+</div>
+<p id="feedback" class="hidden"></p>
     </main>
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script src="script.js"></script>
