@@ -3,12 +3,16 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
+    background-color: #3a7d44; /* Verde suave */
+    color: #ffffff; /* Texto branco para contraste */
 }
 
 header {
-    background: #333;
+    background: #6a4c93; /* Roxo elegante */
     color: white;
-    padding: 10px;
+    padding: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
 #map {
@@ -16,15 +20,30 @@ header {
     margin: 20px auto;
     width: 80%;
     border-radius: 10px;
+    border: 2px solid #d6d6d6; /* Cinza neutro */
 }
 
 button {
-    background: #007bff;
+    background: #6a4c93; /* Roxo */
     color: white;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
     margin-top: 10px;
+    font-size: 1em;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #3a7d44; /* Verde */
+}
+
+#testContainer {
+    background: #d6d6d6; /* Cinza neutro */
+    padding: 15px;
+    border-radius: 10px;
+    width: 50%;
+    margin: 20px auto;
 }
 
 .hidden {
